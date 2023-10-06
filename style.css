@@ -1,0 +1,131 @@
+body {
+    margin: 10px 0;
+    /* text-align: center; */
+    font-family:  'Happy Monkey', cursive;
+    color: #fff;
+    text-shadow: 0px 0px 1px #000;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: 500px) {
+        text-align: center;
+        font-size: 75%;
+    }
+}
+
+.bday-pic {
+    /* display: block; */
+    margin: auto;
+    width: 200px;
+    border: 5px solid #EFB0C9;
+    border-radius: 50%;
+
+    @media screen and (max-width: 500px) {
+        width: 150px;
+        border: 3px solid #EFB0C9;
+    }
+}
+
+.bday-age {
+    /* display: inline; */
+    background-color: #EFB0C9;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 20px 0px 10px 0px;
+
+    @media screen and (max-width: 500px) {
+        padding: 5px 10px;
+        border-radius: 6px;
+        margin: 12px 0px 6px 0px;
+    }
+}
+
+.bday-date {
+    background-color: #EFB0C9;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 0px 0px 10px 0px;
+
+    @media screen and (max-width: 500px) {
+        padding: 5px 10px;
+        border-radius: 6px;
+        margin: 12px 0px 6px 0px;
+    }
+}
+
+.gift {
+    /* text-align: center; */
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: 500px) {
+        margin: 12px 0px;
+    }
+}
+
+.gift-title {
+    /* text-align: center; */
+    margin: 20px;
+
+    @media screen and (max-width: 500px) {
+        margin: 12px;
+    }
+}
+
+.gift-hint {
+    margin: 0px 0px 20px 0px;
+
+    @media screen and (max-width: 500px) {
+        margin: 0px 0px 12px 0px;
+    }
+}
+
+.gift-cover{
+    background-image: url("images/cover-2.avif");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    border: 5px solid #a2d2ff;
+    border-radius: 3%;
+
+    @media screen and (max-width: 500px) {
+        height: 300px;
+        width: 300px;
+        border: 3px solid #a2d2ff;
+        border-radius: 3%;
+    }
+}
+
+#gift-img:hover {
+    background-image: url("images/happy-birthday.webp");
+}
+
+#gift-img-2:hover {
+    background-image: url("images/smart.webp");
+}
+
+#gift-img-3:hover {
+    background-image: url("images/playful.webp");
+}
+
+#gift-img-4:hover {
+    background-image: url("images/funday.webp");
+}
+
+#gift-img-5:hover {
+    background-image: url("images/money.webp");
+}
+
+#gift-img-6:hover {
+    background-image: url("images/prayer.jpg");
+}
+
+a { 
+    color: inherit; 
+    text-align: center;
+}
